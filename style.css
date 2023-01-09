@@ -18,6 +18,10 @@
     width: 100%;
     vertical-align: bottom;
   }
+  .section{
+    margin-bottom: 10vh;
+    /* background-color: #fff; */
+  }
   .bar{
     height: 40px;
     background-color: rgb(230, 187, 123);
@@ -55,7 +59,7 @@
 
   .about{
     position: relative;
-    height: 85vh;
+    height: 90%;
     padding: 20px 0;
   }
   .item1{
@@ -118,15 +122,19 @@
   .item1:hover.item1 h3,.item1:hover.item1 p{
     color: antiquewhite;
   }
-  .line{
+  .aboutzone{
+    position: relative;
+  }
+  .aboutzone::before{
     position: absolute;
+    content: '';
+    right: 0;
     top: 0;
     bottom: 0;
-    right: 0;
     left: 0;
     margin: auto;
     width: 2px;
-    height: 65vh;
+    height: 100%;
     background-color: #000;
   }
   span{
@@ -140,7 +148,7 @@
 
   .mbrs{
     width: 960px;
-    height: 60vh;
+    height: 70vh;
   }
   .mbrs .col{
     position: relative;
@@ -187,7 +195,7 @@
 
 
   .issues{
-    height: 140vh;
+    height: 160vh;
     margin: auto;
   }
   .issues .wrap{
@@ -331,6 +339,7 @@
 
   .footer{
     height: 30vh;
+    margin-top: 50px;
     position: relative;
     background-color: rgb(194, 160, 152);
   }
