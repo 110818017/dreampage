@@ -12,7 +12,7 @@
     text-align: center;
   }
   .header{
-    width: 100%;
+    width: 100vw;
   }
   .header img{
     width: 100%;
@@ -339,6 +339,7 @@
 
   .footer{
     height: 30vh;
+    width: 100vw;
     margin-top: 50px;
     position: relative;
     background-color: rgb(194, 160, 152);
